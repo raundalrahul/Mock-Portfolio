@@ -180,12 +180,44 @@ input {
   width: 10rem;
   background: none;
   color: white;
-  border:1px solid white;
+  border: 1px solid white;
   border-radius: 2rem;
-
 }
 .page4 {
-  
+  height: 70vh;
+  width: 100vw;
+  padding: 2rem;
 }
+
+.page4 .container {
+  width: 100%;
+  display: flex;
+  margin: 2rem;
+}
+.page4 .container img {
+  width: 40%;
+  height: 20rem;
+  background-color: #beb8b8;
+  margin-right: 1rem;
+}
+
+.page4 .container .contain {
+  width: 60%;
+}
+summary {
+  height: 2rem;
+  width: 80%;
+  background-color: #b3b4ff;
+  color: #010384;
+  margin: 1rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+details {
+  width: 80%;
+}
+
 .page5 {
 }
